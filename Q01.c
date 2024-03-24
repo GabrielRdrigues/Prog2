@@ -7,7 +7,7 @@ depois uma mensagem indicando se essa soma é um número múltiplo de 3 */
 int main(){
     int A,B;
     puts("Digite dois números");
-    scanf("%i %i",&A,&B); 
+    scanf("%d %d",&A,&B); 
     printf("Soma: %d\n",A+B);
     puts((A+B)%3==0? "É múltiplo de 3":"Não é múltiplo de 3");
     
